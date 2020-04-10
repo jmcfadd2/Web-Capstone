@@ -2,7 +2,7 @@
 
 :root {
     --mainColor: #f75e61;
-    
+
 }
 
 
@@ -50,6 +50,28 @@ body {
     font-size: 10vh;
     line-height: 1.33;
 }
+
+/* Quotes */
+
+#quotes .row{
+    background:  
+    linear-gradient(
+        rgba(247, 94, 97, 0.8),
+        rgba(247, 94, 97, 0.8)
+    ),
+    url(/img/slider-image-3.jpg);
+}
+
+.profile-pic {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    align-self: center;
+}
+
+/* footer */
+
+
 
 /* Global styles */
 .max-height {
