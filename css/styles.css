@@ -64,7 +64,15 @@ body {
 /* footer */
 
 /* About Img top */
+#ab-top {
+    height: 60vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/about-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 
+/* Our Work styles */
 #ow-top {
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/Slider-image-2.jpg);
@@ -73,16 +81,11 @@ body {
     text-align: center;
 }
 
+/* Our District styles */
+
 #od-top {
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/Slider-image-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-#ab-top {
-    height: 60vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/about-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -95,6 +98,68 @@ body {
 
 }
 
+/* WS Styles */
+#ws-top .container-fluid {
+    height: calc(100vh - 76px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/ws-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#projects .container-fluid .row {
+    height: 70vh;
+}
+
+/* CE Styles */
+
+#ce-top .container-fluid {
+    height: calc(100vh - 76px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/ce-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* SA Styles */
+#sa-top .container-fluid {
+    height: calc(100vh - 76px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/sa-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* Cult Styles */
+#cult-top .container-fluid {
+    height: calc(100vh - 76px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/cult-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* History Styles */
+
+#hs-top .container-fluid {
+    height: calc(100vh - 76px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/Slider-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* location styles */
+
+#loc-top .container-fluid {
+    height: calc(100vh - 76px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/loc-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
 /* Global styles */
 
 .max-height {
@@ -105,3 +170,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.hero-img {
+   
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/Slider-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
