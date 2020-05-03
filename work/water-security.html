@@ -24,11 +24,13 @@
     <!-- My Javascript  -->
     <script src="/js/scripts.js"></script>
 
-    <title>Our-Work Luta Ba Futuru</title>
+    <title>Our-Work Luta Ba Futuru</title>    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img src="/img/logo.png" class="img-fluid" alt="star with arrow logo"></a>
 
@@ -39,20 +41,40 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="about.html">About</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="our-work.html">Our Work</a>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link " href="our-work.html" id="navbarDropdown" role="button" 
+                        aria-haspopup="true" aria-expanded="false">
+                        Our Work
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/work/water-security.html">Water Security</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/work/civic-education.html">Civic Education</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/work/social-audit.html">Social Audit</a>
+                    </div>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="our-district.html">Our District</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="/our-district.html" id="navbarDropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        Our District
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/district/history.html">History</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/district/culture.html">Culture </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/district/location.html">Location</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="/contact.html">Contact</a>
                 </li>
             </ul>
         </div>

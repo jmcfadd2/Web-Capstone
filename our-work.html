@@ -25,10 +25,14 @@
     <script src="/js/scripts.js"></script>
 
     <title>Luta Ba Futuru</title>
+    
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img src="/img/logo.png" class="img-fluid" alt="star with arrow logo"></a>
 
@@ -42,65 +46,86 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="about.html">About</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="our-work.html">Our Work</a>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link " href="our-work.html" id="navbarDropdown" role="button" 
+                        aria-haspopup="true" aria-expanded="false">
+                        Our Work
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/work/water-security.html">Water Security</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/work/civic-education.html">Civic Education</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/work/social-audit.html">Social Audit</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="/our-district.html" id="navbarDropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        Our District
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/district/history.html">History</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/district/culture.html">Culture </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/district/location.html">Location</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="our-district.html">Our District</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="/contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section id="ow-top">
+    <section id="ow-top" class="curved">
 
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12">
+            <div class="row d-flex align-content-center  ">
+                <div class="col-md-12 center ">
                     <h1>Our Work</h1>
-                    <p>If you want to learn more about us, you’re in the right place. Read to learn how we managed to grow our business so fast.</p>
+                    <p class="pt-3">If you want to learn more about us, you’re in the right place. Read to learn how we managed to grow our business so fast.</p>
                 </div>
             </div>
 
             <div class="row">
             <div class="col-md-4">
-                    <div class="card p-3">
-                        <i class="fas fa-tint"></i>
-                        <div class="card-title">
+                    <div id="ow-cards" class="card offset p-3">
+                        <i class="fas fa-tint card-icon py-2"></i>
+                        <div class="card-title pt-2">
                             <h2>Water Security</h2>
                         </div>
-                        <div class="card-body">
-                            <p class="text-muted">Our Basic Infrastructure initiative helps us put in to place
-                                irrigation system, water gathering and distribution systems in order to protect the
+                        <div class="card-body p-2">
+                            <p class="text-muted">
+                                Our Water Security initiative helps us establish
+                                irrigation systems, water collection and distribution systems in order to protect the
                                 important resrouces in Manufahi</p>
                         </div>
                     </div>
                 </div>
             <div class="col-md-4">
-                    <div class="card p-3">
-                        <i class="fas fa-vote-yea"></i>
-                        <div class="card-title">
+                    <div class="card offset p-3">
+                        <i class="fas fa-vote-yea card-icon py-2"></i>
+                        <div class="card-title pt-2">
                             <h2>Civic Education</h2>
                         </div>
-                        <div class="card-body">
-                            <p class="text-muted">The Civic Education program provides critical efforts to increase community awareness about the political process in hopes to increase governmental transparency.</p>
+                        <div class="card-body p-1">
+                            <p class="text-muted">The Civic Education program provides critical efforts to increase community awareness about the political process in hopes to increase governmental transparency</p>
                         </div>
                     </div>
                 </div>
             <div class="col-md-4">
-                    <div class="card p-3">
-                        <i class="fas fa-users"></i>
-                        <div class="card-title">
+                    <div class="card offset p-3">
+                        <i class="fas fa-users card-icon py-2"></i>
+                        <div class="card-title pt-2">
                             <h2>Social Audit</h2>
                         </div>
-                        <div class="card-body">
-                            <p class="text-muted">Social Audits take note of the resources and capabilities in a community in order to empower the people there into action</p>
+                        <div class="card-body p-1">
+                            <p class="text-muted">Social Audits take note of the resources and capabilities in a community in order to empower the people who live there to become all they can be and to live prosperous lives</p>
                         </div>
                     </div>
                 </div>

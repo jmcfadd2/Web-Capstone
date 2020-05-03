@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,6 +14,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
@@ -23,12 +27,14 @@
     <!-- My Javascript  -->
     <script src="/js/scripts.js"></script>
 
-    <title>Luta Ba Futuru</title>
+    <title>Luta Ba Futuru</title>   
 </head>
 
 <body>
 
     <!-- Start of home section -->
+
+    <!-- Navbar with dropdowns -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img src="/img/logo.png" class="img-fluid" alt="star with arrow logo"></a>
@@ -41,19 +47,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/about.html">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Our Work</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="/our-work.html" id="navbarDropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        Our Work
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/work/water-security.html">Water Security</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/work/civic-education.html">Civic Education</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/work/social-audit.html">Social Audit</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="/our-district.html" id="navbarDropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        Our District
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/district/history.html">History</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/district/culture.html">Culture </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/district/location.html">Location</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our District</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -166,12 +192,12 @@
                             <div class="card card-border text-center">
                                 <img src="/img/quote-1.jpg" class="card-img-top profile-pic py-2" alt="speaker">
                                 <div class="card-body">
-                                    <h5>Sra. Dulcia de Jesus Santos</h5>
+                                    <h4>Sra. Dulcia de Jesus Santos</h4>
 
                                     <p class="card-text">
-                                        Through the training provided by Luta ba Futuru and their partners PLAN
+                                        "Through the training provided by Luta ba Futuru and their partners PLAN
                                         International our skills and abilities in the workplace have grown. We feel
-                                        proud
+                                        proud to be apart of the family."
                                     </p>
                                 </div>
                             </div>
@@ -180,10 +206,10 @@
                             <div class="card card-border text-center">
                                 <img src="/img/quote-2.jpg" class="card-img-top profile-pic py-2" alt="speaker">
                                 <div class="card-body">
-                                    <h5>Sr. Bendito Lopes</h5>
+                                    <h4>Sr. Bendito Lopes</h4>
 
                                     <p class="card-text">
-                                        Personally I am happy with the Luta ba Futuru’s program because they did not
+                                        "Personally I am happy with the Luta ba Futuru’s program because they did not
                                         just construct bathrooms in our community but they also delivered information."
                                     </p>
                                 </div>
@@ -193,11 +219,11 @@
                             <div class="card card-border text-center">
                                 <img src="/img/quote-3.jpg" class="card-img-top profile-pic py-2" alt="speaker">
                                 <div class="card-body">
-                                    <h5>Sra. Angela de Costa</h5>
+                                    <h4>Sra. Angela de Costa</h4>
 
                                     <p class="card-text">
-                                        I am happy and give my thanks to Luta ba Futuru and their partners Caritas
-                                        Australia for establishing our group and developing our capacity to help others
+                                        "I am happy and give my thanks to Luta ba Futuru and their partners Caritas
+                                        Australia for establishing our group and developing our capacity to help others"
                                     </p>
                                 </div>
                             </div>
@@ -245,13 +271,19 @@
                     </div>
                     <div class="col-lg-4 col-md-6 mb-lg-0">
                         <h6 class="text-uppercase font-weight-bold mb-4">Registered Office Address</h6>
-                        <p class="text-muted mb-4">Here , write the complete address of the Registered office address along with telephone number.</p>
+                        <p class="text-muted mb-4">Here , write the complete address of the Registered office address
+                            along with telephone number.</p>
                         <ul class="list-inline mt-4">
-                            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab fa-2x fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
-                            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                        class="fab fa-2x fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                        class="fab fa-2x fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                        class="fab fa-2x fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                                        class="fab fa-2x fa-youtube"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                                        class="fab fa-2x fa-google"></i></a></li>
                         </ul>
                     </div>
                 </div>

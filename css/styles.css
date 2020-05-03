@@ -33,6 +33,10 @@ nav a img {
     background-size: cover;
 }
 
+.carousel-caption {
+    padding-bottom: 32vh;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -64,6 +68,7 @@ body {
 /* footer */
 
 /* About Img top */
+
 #ab-top {
     height: 60vh;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/about-1.jpg);
@@ -73,12 +78,14 @@ body {
 }
 
 /* Our Work styles */
+
 #ow-top {
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/Slider-image-2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 120%;
     text-align: center;
+    
 }
 
 /* Our District styles */
@@ -95,10 +102,10 @@ body {
     width: 30vh;
     height: 30vh;
     border-radius: 50%;
-
 }
 
 /* WS Styles */
+
 #ws-top .container-fluid {
     height: calc(100vh - 76px);
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/ws-4.jpg);
@@ -122,6 +129,7 @@ body {
 }
 
 /* SA Styles */
+
 #sa-top .container-fluid {
     height: calc(100vh - 76px);
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/sa-1.jpg);
@@ -131,6 +139,7 @@ body {
 }
 
 /* Cult Styles */
+
 #cult-top .container-fluid {
     height: calc(100vh - 76px);
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/cult-1.jpg);
@@ -159,8 +168,41 @@ body {
     text-align: center;
 }
 
-
 /* Global styles */
+
+/* fonts */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Ubuntu', sans-serif !important;}
+
+p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+/* nav */
+
+ul.navbar-nav li.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* pages */
 
 .max-height {
     min-height: calc(100vh - 76px);
@@ -170,8 +212,38 @@ body {
     background-repeat: no-repeat;
 }
 
+/* aggregate pages */
+
+
+.curved {
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-bottom: 50vh;
+}
+
+.card-icon {
+    font-size: 15vh;
+    color: #f75e61;
+}
+
+.offset {
+    position: relative;
+    top: 15vh;
+    box-shadow:0px 1rem 1rem rgba(0,0,0,.4);
+    z-index: 1;
+}
+
+.offset:hover {
+    box-shadow:0px 2rem 2.5rem rgba(0,0,0,.35);
+}
+
+.center {
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .hero-img {
-   
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(247, 94, 97, 0.8)), url(/img/Slider-image-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
