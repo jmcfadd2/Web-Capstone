@@ -24,13 +24,16 @@
     <!-- My Javascript  -->
     <script src="/js/scripts.js"></script>
 
-    <title>Luta Ba Futuru</title>    <!-- Google Fonts -->
+    <title>Luta Ba Futuru</title> <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=592909831478537&autoLogAppEvents=1">
+    </script>
 
-    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img src="/img/logo.png" class="img-fluid" alt="star with arrow logo"></a>
 
@@ -48,11 +51,11 @@
                     <a class="nav-link" href="/about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link " href="our-work.html" id="navbarDropdown" role="button" 
-                        aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link " href="our-work.html" id="owDropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">
                         Our Work
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="owDropdown">
                         <a class="dropdown-item" href="/work/water-security.html">Water Security</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="/work/civic-education.html">Civic Education</a>
@@ -61,11 +64,11 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link " href="/our-district.html" id="navbarDropdown" role="button"
-                        aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link " href="/our-district.html" id="odDropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">
                         Our District
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="odDropdown">
                         <a class="dropdown-item" href="/district/history.html">History</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="/district/culture.html">Culture </a>
@@ -82,8 +85,8 @@
 
     <!-- Img top  -->
 
-    <section id="ab-top" >
-        <h1>About Us</h1>
+    <section id="ab-top">
+        <h1 class="text-white">About Us</h1>
     </section>
 
     <!-- Our Story section -->
@@ -93,7 +96,7 @@
             <div class="row align">
                 <div class="col-md-12 text-center">
                     <img src="/img/logo.png" alt="logo">
-                    <h2> Our Story </h2>
+                    <h2 class="my-4"> Our Story </h2>
                     <p>
                         Here at Luta Ba Futuru, we’re committed to investing our expertise and resources in order to
                         further achieve our mission. Luta ba Futuru means Fight for the Future in Tetun, and everyday we
@@ -112,42 +115,45 @@
 
     <section id="leadership">
         <div class="container">
-            <h3> Leadership </h3>
+            <h2 class="text-center my-4"> Leadership </h2>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body text-center py-3"> <img src="/img/leads-1.jpg" alt="Boki Fernandes"
+                    <div class="card my-3">
+                        <div class="card-body text-center py-3 "> <img src="/img/leads-1.jpg" alt="Boki Fernandes"
                                 class="card-pic">
                             <h4 class="card-title mt-2 mb-1">Boki Fernandes</h4>
                             <h5>Executive Director</h5>
-                            <p class="mt-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                                consequatur fugit atque esse quis reiciendis quia iusto quas. Laboriosam, molestiae!
+                            <p class="mt-1">
+                                Our Executive Director since 2012, Miss Boki Fernandes has led us to new big projects
+                                and a re-imagining of our vision for the future.
                             </p>
 
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card my-3">
                         <div class="card-body text-center py-3"> <img src="/img/leads-2.jpg" alt="Boki Fernandes"
                                 class="card-pic">
                             <h4 class="card-title mt-2 mb-1">Armando Da Silva</h4>
-                            <h5>Executive Director</h5>
-                            <p class="mt-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                                consequatur fugit atque esse quis reiciendis quia iusto quas. Laboriosam, molestiae!
+                            <h5>Operations Manager</h5>
+                            <p class="mt-1"> The Chief-Go-Getter and Doer in our organization as he handles all the
+                                issues that may arise during a project. He basically lives on site and oversees all
+                                construction that needs to be done in our Water Security initiatives.
                             </p>
 
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card my-3">
                         <div class="card-body text-center py-3"> <img src="/img/leads-3.jpg" alt="Boki Fernandes"
                                 class="card-pic">
-                            <h4 class="card-title mt-2 mb-1">Boki Fernandes</h4>
-                            <h5>Executive Director</h5>
-                            <p class="mt-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-                                consequatur fugit atque esse quis reiciendis quia iusto quas. Laboriosam, molestiae!
+                            <h4 class="card-title mt-2 mb-1">Domingos Rodrigues</h4>
+                            <h5>Program Leader</h5>
+                            <p class="mt-1"> Mr. Rodrigues is a crucial member of the team as he handles most of our
+                                community education and skill buidling workshops. His people skills know no bounds and
+                                neither does his smile!
                             </p>
 
                         </div>
@@ -158,55 +164,88 @@
 
     </section>
 
-<!-- Start of Footer  -->
+    <section id="fb-embed">
 
-<section id="footer">
-    <footer class="bg-dark">
-        <div class="container py-5">
-            <div class="row py-3">
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
-                    </ul>
+        <div class="container-fluid">
+            <div class="row mt-4 align-items-center ">
+                <div class="col-md-6 my-3 text-center">
+                    <h2> Follow us on Facebook</h2>
+                    <p>
+                        Stay up to date on our latest projects by following our page.
+                    </p>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Our Work</h6>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-muted">Water Security</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">Civic Education</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">Livelihoods</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Our District</h6>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-muted">Enviroment</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">History</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">Culture</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Contact</h6>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-muted">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Registered Office Address</h6>
-                    <p class="text-muted mb-4">Here , write the complete address of the Registered office address along with telephone number.</p>
-                    <ul class="list-inline mt-4">
-                        <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab fa-2x fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
-                        <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
-                        <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
-                    </ul>
+                <div class="col-md-6">
+                    <div class="fb-page" data-href="https://www.facebook.com/fundasaunlutabafuturu.flbf/"
+                        data-tabs="timeline" data-width="450" data-height="" data-small-header="false"
+                        data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                        <blockquote cite="https://www.facebook.com/fundasaunlutabafuturu.flbf/"
+                            class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/fundasaunlutabafuturu.flbf/">Fundasaun Luta ba Futuru</a>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-</section>
+
+    </section>
+
+
+
+    <!-- Start of Footer  -->
+
+    <section id="footer">
+        <footer class="bg-dark mt-2">
+            <div class="container py-5">
+                <div class="row py-3">
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Our Work</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#" class="text-muted">Water Security</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted">Civic Education</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted">Livelihoods</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Our District</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#" class="text-muted">Enviroment</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted">History</a></li>
+                            <li class="mb-2"><a href="#" class="text-muted">Culture</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Contact</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#" class="text-muted">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Registered Office Address</h6>
+                        <p class="text-muted mb-4">Here , write the complete address of the Registered office address
+                            along with telephone number.</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                        class="fab fa-2x fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                        class="fab fa-2x fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                        class="fab fa-2x fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                                        class="fab fa-2x fa-youtube"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                                        class="fab fa-2x fa-google"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
 
 
 
@@ -215,14 +254,14 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
     <!-- Owl Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
